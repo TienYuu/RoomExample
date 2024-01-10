@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Room Example</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="tinhthanh">
+        <item>An Giang</item>
+        <item>Bà Rịa-Vũng Tàu</item>
+        <item>Bạc Liêu</item>
+        <item>Bắc Kạn</item>
+        <item>Cần Thơ (TP)</item>
+        <item>Đắk Nông</item>
+        <item>Gia Lai</item>
+        <item>Hà Nội (TP)</item>
+        <item>Hải Phòng (TP)</item>
+        <item>Hòa Bình</item>
+        <item>Hồ Chí Minh (TP)</item>
+        <item>Lạng Sơn</item>
+        <item>Nam Định</item>
+        <item>Ninh Bình</item>
+        <item>Quảng Bình</item>
+        <item>Sơn La</item>
+        <item>Thái Bình</item>
+        <item>Thanh Hóa</item>
+    </string-array>
+</resources>

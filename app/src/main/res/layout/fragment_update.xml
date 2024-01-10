@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.add.AddFragment">
+
+
+    <EditText
+        android:id="@+id/mssv_up"
+        android:layout_width="329dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="Mã số sinh viên"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ten_up"
+        android:layout_width="329dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="Họ và tên"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/mssv"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/mssv_up"
+        app:layout_constraintTop_toBottomOf="@+id/mssv_up" />
+
+    <AutoCompleteTextView
+        android:id="@+id/quequan_up"
+        android:layout_width="329dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="36dp"
+        android:completionThreshold="1"
+        android:hint="Quê quán"
+        app:layout_constraintStart_toStartOf="@+id/ngaysinh_up"
+        app:layout_constraintTop_toBottomOf="@+id/ngaysinh_up" />
+
+    <EditText
+        android:id="@+id/ngaysinh_up"
+        android:layout_width="329dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Ngày sinh"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="@+id/ten_up"
+        app:layout_constraintTop_toBottomOf="@+id/ten_up" />
+
+    <Button
+        android:id="@+id/button_up"
+        android:layout_width="115dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="72dp"
+        android:text="Cập nhật"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quequan_up" />
+
+    <Button
+        android:id="@+id/button_xoa"
+        android:layout_width="126dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="60dp"
+        android:text="Xóa"
+        app:layout_constraintBottom_toBottomOf="@+id/button_up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quequan_up"
+        app:layout_constraintVertical_bias="0.666" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
